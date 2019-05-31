@@ -26,12 +26,12 @@ CREATE TABLE EMP_Phone (
 );
 
 CREATE TABLE DOCTOR (
-    EID_Doc CHAR(6),
+    EID_Doc CHAR(6)     NOT NULL,
     CONSTRAINT doctor_pk PRIMARY KEY(EID_Doc)
 );
 
 CREATE TABLE NURSE (
-    EID_Nur CHAR(6),
+    EID_Nur CHAR(6)     NOT NULL,
     CONSTRAINT nurse_pk PRIMARY KEY(EID_Nur)
 );
 
